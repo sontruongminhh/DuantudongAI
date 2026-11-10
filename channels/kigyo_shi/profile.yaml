@@ -1,0 +1,72 @@
+# Hồ sơ kênh 4: lịch sử các công ty Nhật từng số 1 rồi biến mất. Thị trường Nhật.
+# Căn cứ: research\PHAN_TICH_KENH_MAU.md, CHIEN_LUOC_KENH.md. Mục ghi "THỬ" là giả định, đo lại sau 5 video.
+# Mỗi lần chạy lưu một bản sao hồ sơ. Không ghi API key, mật khẩu hay token vào tệp này.
+
+kenh:
+  ten: 日本一の終わり方    # người dùng chọn 05/11/2026
+  chu_de_chinh: かつて日本一だった会社は、なぜ消えたのか
+  chu_de_phu:
+    - 戦前の財閥と商社
+    - 昭和の家電・繊維・流通の大企業
+    - 倒産・解散・吸収で名前が消えた会社
+  khan_gia: 日本の45歳以上、昭和の商品や会社に思い出がある人、経営の教訓に関心がある人 (THỬ)
+  ngon_ngu: ja
+  thi_truong: JP
+
+noi_dung:
+  phong_cach_ke: 落ち着いた語り。冒頭で頂点の数字と今の価値を示し、「ところが」で消えた年を告げる。年代順に12章で追い、最後に「なぜ消えたのか」「消えた物と残った物」をまとめる。煽らない
+  do_dai_phut: 32
+  quy_chuan_nguon: 論文(J-STAGE・博士論文)、国会会議録、社史・各社の沿革、辞典(コトバンク)。概要欄に主な参考資料を書く。他チャンネルの台本や言い回しは使わない
+  ban_quyen: 画像は Wikimedia Commons のパブリックドメイン・CC0・CC BY・CC BY-SA のみ、作者を概要欄に記載。地図は Natural Earth。BGMは自作
+  tu_cam: []
+
+hinh_anh:
+  khoi_phong_cach: 平面のインフォグラフィックと白黒の資料写真。生成りの紙色の背景に点の格子、藍と朱、明朝体の見出し
+  mau_sac: 生成り #f3eee3, カード #fffdf7, 墨 #22252b, 藍 #1f3a5f, 朱 #b8412c, 灰 #7d7566, 夜 #141a24
+  anh_sang: 平面で影は薄く
+  nhan_vat: なし(顔出しなし、キャラクターなし)
+  boi_canh: 資料写真、年表、数字、棒グラフ、地図の点、引用カード
+  them_cuoi_prompt: ""
+
+clip:
+  thoi_luong_giay: 20      # kênh mẫu: trung vị 10 giây, dài nhất 28 giây. 08/11/2026: 12 cắt cụt cảnh có lời dài, giọng trễ hình tới 3 giây
+  thoi_luong_thay_doi: true
+  ky_tu_toi_da: 66         # chia cảnh như video 10 (12 giây), độ dài cảnh vẫn tới 20 giây theo giọng thật
+  do_phan_giai: [1280, 720]
+  nguon: motion
+
+giong:
+  mo_ta: 日本語、男性、落ち着いたドキュメンタリーの語り。高さは中くらい(kênh mẫu F0 trung vị 136 Hz, 112–165)
+  provider: minimax
+  model_id: speech-2.8-hd
+  voice_id: "364839964033252"   # MiniMax Refined Storyteller, chọn 04/11/2026: F0 119–136–169 Hz, gần kênh mẫu (112–136–165). Xem research/GIONG.md
+  ky_tu_moi_giay: 6.4             # 08/11/2026: đo lời thật video 9 và 10 ở tốc độ 0,85 được 5,44–5,52 ký tự/giây, tức 6,4–6,5 ở tốc độ 1. Bản 6,9 cũ làm 2/3 clip ngắn hơn giọng, giọng trễ hình tới 3 giây
+  toc_do: 0.85                  # kênh mẫu khoảng 4,6 ký tự mỗi giây video (gồm khoảng nghỉ); 0,92 cho 5,6
+  toc_do_toi_da: 1.15
+
+dung:
+  fps: 24
+  phu_de_in: true
+  phu_de_kieu: dai_den      # chữ trắng trên dải đen ngang đáy (như kênh mẫu)
+  am_luong_goc: 0.0
+  am_luong_nhac: 0.36     # 0,40 cho nhạc ở khoảng lặng -23,7 dB (video 大映), 0,36 cho -24,6 dB
+  nhac_nen: assets/nhac_nen.wav
+  nhac_nen_giay_phep: Tự tạo bằng tools/tao_nhac_nen.py (tổng hợp bằng code), không dùng nhạc của bên thứ ba
+  keo_hinh_toi_da_ti_le: 0.05
+  dung_hinh_toi_da_giay: 1.5
+
+youtube:
+  channel_id:               # chưa có kênh YouTube
+  mau_tieu_de: "{日本一の肩書き}・{社名}はなぜ消えたのか｜{比べる相手や数字}"
+  mau_mo_ta: 頂点の年と数字と今の価値 → 「ところが、その頂点から○年後」 → 問い → ▼目次 → ◼️ 主な参考資料 → ◼️ 画像（Wikimedia Commons）の作者 → 思い出をコメントで → ハッシュタグ
+  mau_thumbnail: 左上に社名の箱、中央に大きな「なぜ消えた」、下の帯に「…だったのに」、右に白黒の創業者、背景に白黒の本社。色は藍と白と金(kênh mẫu dùng đỏ và vàng)
+  loi_keu_goi: の思い出があれば、ぜひコメント欄で教えてください
+  the_co_dinh: [企業史, 昭和, 倒産, 経営史, 日本経済]
+  hashtag: ["#企業史", "#昭和"]
+  category_id: "27"
+  danh_sach_phat:
+  tre_em: false
+  noi_dung_tong_hop: true
+
+quy_trinh:
+  bo_duyet: true    # người dùng 04/11/2026: cứ làm video, tạo kênh và tải lên sau

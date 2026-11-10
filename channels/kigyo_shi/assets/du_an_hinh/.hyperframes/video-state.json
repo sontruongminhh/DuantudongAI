@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "historyId": null,
+  "currentRevision": null,
+  "pendingChanges": true,
+  "files": {},
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "f89d3672-727f-4754-91b8-53cedf125092",
+      "completedAt": 1793843393810,
+      "output": "E:\\DuantudongAI\\kenh4\\channels\\kigyo_shi\\assets\\du_an_hinh\\BANNER.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

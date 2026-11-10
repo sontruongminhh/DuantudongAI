@@ -1,0 +1,61 @@
+# Hồ sơ kênh mẫu. Tạo kênh mới bằng: python -m studio tao-kenh <ten_kenh>
+# Mỗi lần chạy lưu lại một bản sao, nên sửa hồ sơ không làm đổi gói nội dung đã duyệt.
+# Không ghi API key, mật khẩu hay token vào tệp này.
+
+kenh:
+  ten:
+  chu_de_chinh:
+  chu_de_phu: []
+  khan_gia:
+  ngon_ngu:            # mã ISO: vi, en, ja...
+  thi_truong:          # mã quốc gia: VN, US, JP...
+
+noi_dung:
+  phong_cach_ke:
+  do_dai_phut:
+  quy_chuan_nguon:     # loại nguồn được dùng, cách ghi nguồn
+  ban_quyen:           # quy tắc về nhạc, hình ảnh, tư liệu
+  tu_cam: []           # từ hoặc cụm từ không được xuất hiện trong lời đọc, prompt, SEO
+
+hinh_anh:
+  khoi_phong_cach:     # câu mô tả phong cách, tự thêm vào mọi prompt
+  mau_sac:
+  anh_sang:
+  nhan_vat:            # tài liệu cho người viết, không tự thêm vào mọi cảnh
+  boi_canh:            # tài liệu cho người viết, không tự thêm vào mọi cảnh
+  them_cuoi_prompt: "no on-screen text, no subtitles, no logos, no watermark"
+
+clip:
+  thoi_luong_giay: 10
+  do_phan_giai: [1280, 720]
+
+giong:
+  mo_ta:               # giới tính, độ tuổi, chất giọng, cảm xúc mong muốn
+  provider: minimax    # minimax | elevenlabs | capcut
+  model_id: speech-2.8-hd
+  voice_id:            # để trống thì công cụ tự chọn theo mô tả
+  toc_do: 1.0
+  toc_do_toi_da: 1.2
+
+dung:
+  fps: 24
+  phu_de_in: true
+  am_luong_goc: 0.0    # âm thanh gốc của clip, 0 là tắt
+  am_luong_nhac: 0.15
+  nhac_nen:            # đường dẫn tính từ thư mục kênh, ví dụ assets/nhac.mp3
+  nhac_nen_giay_phep:  # bắt buộc khi có nhạc nền
+  keo_hinh_toi_da_ti_le: 0.05   # quá mức này thì cảnh báo khi kiểm tra video
+  dung_hinh_toi_da_giay: 1.5    # quá mức này thì cảnh báo khi kiểm tra video
+
+youtube:
+  channel_id:          # bắt buộc trước khi tải lên, lấy từ lệnh ket-noi-youtube
+  mau_tieu_de:
+  mau_mo_ta:
+  mau_thumbnail:
+  loi_keu_goi:
+  the_co_dinh: []
+  hashtag: []
+  category_id: "27"    # mã danh mục YouTube, 27 là Education
+  danh_sach_phat:      # mã danh sách phát, có thể để trống
+  tre_em: false        # true nếu video dành cho trẻ em
+  noi_dung_tong_hop: true   # true nếu có nội dung AI trông như thật

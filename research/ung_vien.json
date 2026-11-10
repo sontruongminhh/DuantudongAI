@@ -1,0 +1,410 @@
+[
+ {
+  "ten": "安宅産業",
+  "nguoi": "安宅英一",
+  "nhom": "商社・一族",
+  "commons": [
+   "Ataka Sangyo",
+   "安宅産業",
+   "安宅英一"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "大倉財閥",
+  "nguoi": "大倉喜八郎",
+  "nhom": "財閥",
+  "commons": [
+   "Okura Kihachiro",
+   "大倉喜八郎",
+   "大倉組"
+  ],
+  "ten_khac": [
+   "大倉喜八郎",
+   "大倉組"
+  ]
+ },
+ {
+  "ten": "浅野財閥",
+  "nguoi": "浅野総一郎",
+  "nhom": "財閥",
+  "commons": [
+   "Asano Soichiro",
+   "浅野総一郎",
+   "浅野セメント"
+  ],
+  "ten_khac": [
+   "浅野総一郎"
+  ]
+ },
+ {
+  "ten": "古河財閥",
+  "nguoi": "古河市兵衛",
+  "nhom": "財閥",
+  "commons": [
+   "Furukawa Ichibei",
+   "古河市兵衛",
+   "足尾銅山"
+  ],
+  "ten_khac": [
+   "古河市兵衛"
+  ]
+ },
+ {
+  "ten": "久原財閥",
+  "nguoi": "久原房之助",
+  "nhom": "財閥",
+  "commons": [
+   "Kuhara Fusanosuke",
+   "久原房之助",
+   "日立鉱山"
+  ],
+  "ten_khac": [
+   "久原房之助"
+  ]
+ },
+ {
+  "ten": "日産コンツェルン",
+  "nguoi": "鮎川義介",
+  "nhom": "財閥",
+  "commons": [
+   "Aikawa Yoshisuke",
+   "鮎川義介",
+   "満州重工業"
+  ],
+  "ten_khac": [
+   "鮎川義介"
+  ]
+ },
+ {
+  "ten": "日窒コンツェルン",
+  "nguoi": "野口遵",
+  "nhom": "財閥",
+  "commons": [
+   "Noguchi Shitagau",
+   "野口遵",
+   "興南"
+  ],
+  "ten_khac": [
+   "日窒",
+   "野口遵"
+  ]
+ },
+ {
+  "ten": "理研コンツェルン",
+  "nguoi": "大河内正敏",
+  "nhom": "財閥",
+  "commons": [
+   "Okochi Masatoshi",
+   "大河内正敏",
+   "理化学研究所"
+  ],
+  "ten_khac": [
+   "理研",
+   "大河内正敏"
+  ]
+ },
+ {
+  "ten": "森コンツェルン",
+  "nguoi": "森矗昶",
+  "nhom": "財閥",
+  "commons": [
+   "Mori Nobuteru",
+   "森矗昶",
+   "昭和電工"
+  ],
+  "ten_khac": [
+   "森矗昶"
+  ]
+ },
+ {
+  "ten": "中島飛行機",
+  "nguoi": "中島知久平",
+  "nhom": "財閥",
+  "commons": [
+   "Nakajima Aircraft",
+   "中島知久平",
+   "中島飛行機"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "藤田組",
+  "nguoi": "藤田伝三郎",
+  "nhom": "財閥",
+  "commons": [
+   "Fujita Denzaburo",
+   "藤田伝三郎",
+   "小坂鉱山"
+  ],
+  "ten_khac": [
+   "藤田伝三郎"
+  ]
+ },
+ {
+  "ten": "川崎造船所",
+  "nguoi": "松方幸次郎",
+  "nhom": "財閥",
+  "commons": [
+   "Matsukata Kojiro",
+   "松方幸次郎",
+   "川崎造船所"
+  ],
+  "ten_khac": [
+   "松方幸次郎"
+  ]
+ },
+ {
+  "ten": "十五銀行",
+  "nguoi": "松方巌",
+  "nhom": "銀行",
+  "commons": [
+   "十五銀行",
+   "Jugo Bank",
+   "華族銀行"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "片倉製糸",
+  "nguoi": "片倉兼太郎",
+  "nhom": "繊維・一族",
+  "commons": [
+   "Katakura",
+   "片倉兼太郎",
+   "富岡製糸場"
+  ],
+  "ten_khac": [
+   "片倉"
+  ]
+ },
+ {
+  "ten": "大映",
+  "nguoi": "永田雅一",
+  "nhom": "映画",
+  "commons": [
+   "Daiei Film",
+   "永田雅一",
+   "大映"
+  ],
+  "ten_khac": [
+   "大映映画"
+  ]
+ },
+ {
+  "ten": "新東宝",
+  "nguoi": "大蔵貢",
+  "nhom": "映画",
+  "commons": [
+   "Shintoho",
+   "新東宝",
+   "大蔵貢"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "セゾングループ",
+  "nguoi": "堤清二",
+  "nhom": "流通・一族",
+  "commons": [
+   "Saison Group",
+   "堤清二",
+   "西武百貨店"
+  ],
+  "ten_khac": [
+   "セゾン",
+   "堤清二"
+  ]
+ },
+ {
+  "ten": "ダイエー",
+  "nguoi": "中内功",
+  "nhom": "流通・一族",
+  "commons": [
+   "Daiei",
+   "中内功",
+   "ダイエー"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "そごう",
+  "nguoi": "水島廣雄",
+  "nhom": "流通",
+  "commons": [
+   "Sogo department store",
+   "そごう",
+   "水島廣雄"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "ヤオハン",
+  "nguoi": "和田一夫",
+  "nhom": "流通・一族",
+  "commons": [
+   "Yaohan",
+   "ヤオハン",
+   "和田一夫"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "長崎屋",
+  "nguoi": "岩田孝八",
+  "nhom": "流通",
+  "commons": [
+   "Nagasakiya",
+   "長崎屋"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "マイカル",
+  "nguoi": "小林敏峯",
+  "nhom": "流通",
+  "commons": [
+   "Mycal",
+   "マイカル",
+   "ニチイ"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "山一證券",
+  "nguoi": "野澤正平",
+  "nhom": "金融",
+  "commons": [
+   "Yamaichi Securities",
+   "山一證券"
+  ],
+  "ten_khac": [
+   "山一証券"
+  ]
+ },
+ {
+  "ten": "北海道拓殖銀行",
+  "nguoi": "河谷禎昌",
+  "nhom": "金融",
+  "commons": [
+   "Hokkaido Takushoku Bank",
+   "北海道拓殖銀行"
+  ],
+  "ten_khac": [
+   "拓銀"
+  ]
+ },
+ {
+  "ten": "日本長期信用銀行",
+  "nguoi": "杉浦敏介",
+  "nhom": "金融",
+  "commons": [
+   "Long-Term Credit Bank of Japan",
+   "日本長期信用銀行"
+  ],
+  "ten_khac": [
+   "長銀"
+  ]
+ },
+ {
+  "ten": "千代田生命",
+  "nguoi": "門野幾之進",
+  "nhom": "金融",
+  "commons": [
+   "Chiyoda Life",
+   "千代田生命"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "林原",
+  "nguoi": "林原健",
+  "nhom": "一族企業",
+  "commons": [
+   "Hayashibara",
+   "林原"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "エルピーダメモリ",
+  "nguoi": "坂本幸雄",
+  "nhom": "電機",
+  "commons": [
+   "Elpida Memory",
+   "エルピーダメモリ"
+  ],
+  "ten_khac": [
+   "エルピーダ"
+  ]
+ },
+ {
+  "ten": "赤井電機",
+  "nguoi": "赤井三郎",
+  "nhom": "電機",
+  "commons": [
+   "Akai Electric",
+   "Akai tape recorder",
+   "赤井電機"
+  ],
+  "ten_khac": [
+   "赤井",
+   "AKAI"
+  ]
+ },
+ {
+  "ten": "アイワ",
+  "nguoi": "池尻光夫",
+  "nhom": "電機",
+  "commons": [
+   "Aiwa",
+   "アイワ"
+  ],
+  "ten_khac": [
+   "aiwa",
+   "AIWA"
+  ]
+ },
+ {
+  "ten": "船井電機",
+  "nguoi": "船井哲良",
+  "nhom": "電機・一族",
+  "commons": [
+   "Funai Electric",
+   "船井電機",
+   "船井哲良"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "大昭和製紙",
+  "nguoi": "斉藤了英",
+  "nhom": "製紙・一族",
+  "commons": [
+   "Daishowa Paper",
+   "大昭和製紙",
+   "斉藤了英"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "永大産業",
+  "nguoi": "深尾茂",
+  "nhom": "住宅",
+  "commons": [
+   "Eidai Sangyo",
+   "永大産業"
+  ],
+  "ten_khac": []
+ },
+ {
+  "ten": "大沢商会",
+  "nguoi": "大沢善夫",
+  "nhom": "商社",
+  "commons": [
+   "Osawa Shokai",
+   "大沢商会"
+  ],
+  "ten_khac": []
+ }
+]

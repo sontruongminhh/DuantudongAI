@@ -1,0 +1,39 @@
+# Bí mật: không bao giờ đưa vào Git
+.env
+.env.*
+*.key
+*.pem
+client_secret*.json
+token*.json
+API KEY*.txt
+*api_key*.txt
+settings.json
+
+# Dữ liệu từng lần chạy và tệp nặng
+runs/*
+!runs/*.md
+tai_len/
+thu_nghiem/
+research/cache/
+research/data/
+research/doi_thu/
+research/giong_thu/
+.claude/
+research/cache/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.zip
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
