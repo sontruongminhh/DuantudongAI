@@ -27,7 +27,7 @@ def next_step(run):
     motion = (run.profile.get("clip") or {}).get("nguon") == "motion"
     if motion:
         if not (d / "script.md").is_file():
-            return "Viết script.md theo prompts\\02_kich_ban.md, rồi kiểm bằng: python tools\\check_script_ja.py " \
+            return "Viết script.md theo runs\\HUONG_DAN_NGHIEN_CUU.md và runs\\TIEU_CHI_KICH_BAN.md, rồi kiểm bằng: python tools\\check_script_ja.py " \
                    f"runs\\{name}\\script.md"
         if not (d / "motion" / "dong_loi.json").is_file():
             return f"python -m studio tach-loi {name}"
@@ -35,7 +35,7 @@ def next_step(run):
         if not scenes_ok:
             canh = read_json(d / "motion" / "canh.json").get("canh", [])
             if not canh or any(not sc.get("template") for sc in canh):
-                return "Điền template và data cho từng cảnh trong motion\\canh.json theo prompts\\04_dao_dien_motion.md"
+                return "Điền template và data cho từng cảnh trong motion\\canh.json theo runs\\HUONG_DAN_DIEN_CANH.md"
             return f"python -m studio nap-motion {name}"
     if not approved("G2"):
         if motion:

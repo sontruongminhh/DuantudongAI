@@ -1,5 +1,4 @@
 requests>=2.31
-langdetect>=1.0.9
 pyyaml>=6.0
 keyring>=25.0
 google-auth>=2.30
@@ -7,3 +6,7 @@ google-auth-oauthlib>=1.2
 google-api-python-client>=2.130
 pytest>=8.0
 numpy>=2.0
+
+# Cài riêng ngoài .venv (gọi bằng lệnh trên máy):
+#   yt-dlp  : tải phụ đề, đo lượt xem đối thủ (tools/cham_chu_de.py, bước 1 QUY_TRINH)
+#   ffmpeg, ffprobe : dựng video, đo độ dài clip, kiểm âm thanh

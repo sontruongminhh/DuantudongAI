@@ -1,4 +1,4 @@
-"""Kiểm tra kịch bản tiếng Nhật (script.md) theo prompts/02_kich_ban.md, phần đo được bằng máy.
+"""Kiểm tra kịch bản tiếng Nhật (script.md) theo runs/TIEU_CHI_KICH_BAN.md, phần đo được bằng máy.
 
   python tools/check_script_ja.py runs/<lan_chay>/script.md [--phut 16]
 

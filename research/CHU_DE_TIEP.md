@@ -39,7 +39,7 @@ Hai video đã có kịch bản và hình (三洋電機, 三光汽船) vẫn d�
 
 - Bảng 38 kênh ngách công ty / gia tộc: Google Sheet tab "Thị trường Cty-Gia tộc" (bản gốc `research\data\thi_truong_kigyo_20261105.tsv`, dựng lại: `python -I research\quet_thi_truong.py` rồi `python -I research\lam_bang_thi_truong.py`).
 - Nhu cầu đo lại bằng YouTube API: 大倉喜八郎 có video 50,8 vạn và 8,1 vạn (trước đây ghi 1,6 vạn là thiếu); 堤康次郎 9 video ≥10 vạn; 岩崎弥太郎 9; 小林一三 5; 安田善次郎 3; 大映 3.
-- Video 5 chọn **大倉財閥**, kế hoạch ở `research\KE_HOACH_VIDEO5.md`. 大映 để video 6.
+- Video 5 chọn **大倉財閥**, kế hoạch ở `luu_tru\KE_HOACH_VIDEO5.md`. 大映 để video 6.
 
 ## Cập nhật 07/11/2026: đo mức quan tâm theo người (`research\tim_nguoi.py`)
 
