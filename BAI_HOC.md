@@ -261,6 +261,7 @@ Chủ đề chọn từ bảng thị trường mới (Google Sheet tab "Thị tr
 2. Thứ tự dựng mới: `dung` lần đầu (có giọng) → `nap-motion` + `dung-canh` (độ dài theo giọng thật) → render lại cảnh đổi độ dài → `nhan-clip --ghi-de` → bỏ `clips_cat` cũ → `dung` → `cat-clip` → `dung`.
 3. Người còn sống (中内潤, 中内正): chức vụ ở công ty và trường lấy từ trang chính thức (A) và báo lớn (神戸新聞, 読売, B, có 「によると」); không kể đời tư hay động cơ.
 4. Không có chân dung tự do của nhân vật chính thì thumbnail dùng ảnh nơi chốn mạnh nhất của câu chuyện (cửa hàng sập năm 1995 còn rõ biển).
+5. (10/11/2026) Người dùng muốn thumbnail có mặt người. 中内㓛 không có ảnh tự do (đã tra Commons, Wikidata, ja/en Wikipedia), nên dùng chân dung PD của 松下幸之助 (người trong mạch 30 năm tranh giá). Dòng dưới ghi tên ông, 「松下幸之助と30年戦ったのに…」, để người xem không tưởng đó là 中内. Bản cũ giữ ở `publish\thumb_cu.json` và `thumbnail_cu.jpg`.
 
 ## Video 11: 和田家 / ヤオハン (`runs\20261109-wada-ke`, 09/11/2026), loạt 「なぜ消えたのか」
 
@@ -407,3 +408,58 @@ Video `IJvgS0sFu-g` (投資ジャーナル事件 / 中江滋樹): **425.855 view
 2. Mức B từ Wikipedia nói 「とされます」/「と伝えられます」, không gắn 「事典によると」.
 3. Thumbnail giữ khung cũ cho mọi video để kênh đồng bộ (người dùng đã xem kiểu đỏ nâu và không chọn). Con số trên thumbnail phải đúng phạm vi của nguồn (戦闘機 ≠ 戦闘用機体).
 4. Tiêu đề 「零戦の6割」 dựa trên nguồn B (Wikipedia; hai trang lệch nhau 6割以上 / 約2/3); không tìm được báo cáo USSBS riêng về 中島 (Corporation Report No. II). Nếu sau này có, bổ sung nguồn A.
+
+## Video 14: 鮎川家 / 日産コンツェルン (`runs\20261110-aikawa-ke`, 10–11/11/2026), loạt 「なぜ消えたのか」
+
+**Kết quả:** `render\final.mp4` dài 34:07, 231 cảnh, 12 chương (chương 1 dài 4:32). 37 nguồn, 163 dữ kiện (đa số A: 宇田川勝 1972/1976, 国会会議録 có lời chính 鮎川 1953–1956 và biên bản từ chức 1959, trang công ty), 55 ảnh Commons (dùng 47); ảnh chiếm 29% số cảnh, không ảnh nào quá 3 cảnh. 25 câu trích trong 「」, rào đón 3%. Trùng 0,0% với phụ đề 4 video đối thủ. Âm thanh -14,0 LUFS, nhạc ở khoảng lặng -29,4 dB; phụ đề 597 dòng, 0 chỗ cắt giữa từ; 0/231 cảnh đổi hình trước khi giọng dứt (dựng đầu xong render lại 105 cảnh). Tiêu đề: 「日産をつくった一家・鮎川家はなぜ消えたのか｜株主5万人の財閥と満洲」. Thumbnail khung cũ: 「日産をつくった一家 / 鮎川家 / なぜ消えた？ / 三井・三菱に次ぐ財閥だったのに…」, chân dung 鮎川 1937, nền ダットサン 1936. Đóng gói ở `tai_len\14_aikawa`. Người dùng duyệt kịch bản và 24 câu đọc thử ngay lần đầu.
+
+### Điều làm tốt
+
+- Người dùng yêu cầu "nội dung rất quan trọng, phần đầu làm kỹ". Cách làm: agent nghiên cứu ghi riêng mục `## Tư liệu cho mở đầu` (a–g: điều ai cũng tin, tin 2026, câu nói thật, con số so sánh, điểm khúc mắc, vật xuyên suốt, câu kết bất ngờ); **người điều phối tự viết kịch bản** (cả 12 chương); một agent khác **soát từng câu** với `nguon.md` trước khi gửi duyệt.
+- Mở đầu ghép hai thứ có văn bản gốc thành một đối lập: thông cáo 日産 13/5/2026 (lỗ 5.331億円, giảm cơ sở 17→10) đặt cạnh lời 鮎川 ở Quốc hội 1955 「縮小したことは私は一ぺんもありません」. Câu hỏi 3 dùng lại câu nói này (vì sao người không bao giờ thu nhỏ lại rời ghế nghị sĩ cùng con năm 1959).
+- Mỗi câu hỏi có cảnh trả lời riêng (thẻ `cau_hoi` + 「答えは…」) ở cuối chương 8 và 10, theo cách học từ kênh khác (video 12).
+- Vật xuyên suốt có ảnh thật (横浜第一号館 = ゲストホール), chỉ 3 lần ảnh; các lần nhắc khác bằng niên biểu tòa nhà.
+
+### Lỗi gặp và đã sửa
+
+| # | Lỗi | Sửa |
+|---|---|---|
+| 1 | Agent nghiên cứu đề xuất câu hỏi 3 「なぜ『日産』の名は自動車の会社にだけ残ったのか」: sai, 日産化学 vẫn mang tên 日産 (F85) | Đổi sang câu hỏi về việc hai cha con từ chức 1959; mở đầu thêm 「いまも日産を名乗る日産化学」 để người xem không hiểu sai |
+| 2 | Agent soát câu tìm 5 lỗi phải sửa và ~30 chỗ vượt nguồn trong bản người điều phối viết: biểu đồ tròn trộn hai mẫu số (98% số người, 5,2% số cổ phần), 「初代」 và năm bắt 1945 chỉ có mức B mà không rào, gộp lời ở 巣鴨 thành lý do bị chỉ định tài phiệt, mã F sai (F20/F21 thay vì F54/F71), 「5%の一家」 trong khi số là của cả phe 鮎川 | Sửa theo từng dòng; biểu đồ trộn mẫu số đổi sang `so_sanh` / `danh_sach`; câu trả lời câu hỏi 2 viết là 「記録から読み取れることは、二つあります」 thay vì khẳng định lý do |
+| 3 | Câu kết 1956 「快的な自動車に乗ることはできない」 tưởng là lời nói về đường xá; mở biên bản thì đó là phép so sánh khi bàn bồi thường cho Philippines | Ghi rõ ngữ cảnh trong lời và thẻ trích; cập nhật F137 |
+| 4 | Không có mã F nói 「日産」 là chữ tắt của 日本産業 (chỉ Wikipedia) | Người điều phối mở trang 日産ヘリテージ: 「『日産』の名称の発端となる『日本産業』」 → thêm F163 (A) |
+| 5 | Genmax hết credit giữa lúc đọc thử (HTTP 402 「insufficient credits」, 29 credit/câu) | Người dùng nạp; `doc_thu.py` giữ câu đã đọc |
+| 6 | Render nền bị dừng khi phiên kết thúc (200/231 clip) | Chạy lại `ve_song_song.py`; công cụ bỏ qua clip đã có |
+| 7 | `seo_kigyo.py` báo thiếu `metadata.json` | Chạy `tao-seo <run>` trước (không ghi đè `seo.json` viết tay) |
+| 8 | Agent điền hình báo 2 câu vượt nguồn (「福岡の貝島家」, mô tả 巣鴨 là nơi giam nghi phạm chiến tranh) | Sửa lời, `so_nhom_canh.py` GIỐNG, chạy lại `tach-loi` → `dien_mau.py` → `nap-motion` → `kiem-tra-goi` → `dung-canh` |
+
+### Điều chỉnh
+
+1. Bước 3 thêm: agent nghiên cứu ghi mục `## Tư liệu cho mở đầu` (a–g) trong `brief.md`; người điều phối viết (ít nhất) Chương 1; một agent riêng soát từng câu với `nguon.md` (đúng chữ trích, mức B có rào, khoảng năm, mẫu số biểu đồ, ý ngầm dễ hiểu sai) trước khi gửi người dùng.
+2. Câu trích dùng làm điểm nhấn (mở/kết) phải mở văn bản gốc đọc cả đoạn quanh nó, để biết đó là khẳng định hay so sánh.
+3. Biểu đồ `tron` chỉ dùng khi các phần cùng một mẫu số và cộng lại 100%.
+4. Trước khi làm video, nhắc người dùng kiểm credit Genmax (đọc thử + giọng cả video).
+5. Bước 10: `tao-seo` rồi mới `seo_kigyo.py`.
+
+## Video 15: 住友家 (`runs\20261112-sumitomo-ke`, 12–14/11/2026), loạt 「なぜ終わらなかったのか」
+
+**Kết quả:** `render\final.mp4` dài 34:27, 223 cảnh, 12 chương (chương 1 dài 4:30). 35 nguồn, 203 dữ kiện (F203 do người điều phối thêm từ trang 三井住友銀行大阪本店ビル), 55 ảnh Commons (dùng 40), ảnh chiếm 27% số cảnh. 57 câu có 「」. Trùng 0,0 / 0,0 / 0,1% với phụ đề 3 video đối thủ. Âm thanh -14,0 LUFS, nhạc ở khoảng lặng -24,2 dB; phụ đề 608 dòng, 0 chỗ cắt giữa từ (sửa 2 câu); 0/223 cảnh đổi hình trước khi giọng dứt (render lại 117 cảnh sau lần dựng đầu). Tiêu đề: 「別子銅山の一族・住友家はなぜ終わらなかったのか｜売られかけた銅山と、取り戻した名前」. Thumbnail khung cũ: 「別子銅山の一族 / 住友家 / なぜ終わらない？ / 銅山を10万円で売りかけたのに…」, chân dung 住友友純, nền 東平 2023. Đóng gói ở `tai_len\15_sumitomo`. Bảng cách đọc 104 mục; người dùng nghe 16 câu và duyệt ngay lần đầu.
+
+### Lỗi gặp và đã sửa
+
+| # | Lỗi | Sửa |
+|---|---|---|
+| 1 | Commons trả 429 cho ảnh gốc hơn 40 phút; agent tìm ảnh dừng giữa chừng (41/85 ảnh) | Tải bản thu nhỏ chuẩn (`/thumb/…/1280px-…`, cũng có 960/500/330) thì không bị chặn; chạy lại tải rồi agent làm tiếp |
+| 2 | Không có ảnh tự do cho 古田俊之助, 住友政友, 理右衛門, 友成 | Cảnh 古田 dùng thẻ `danh_sach` và ảnh trụ sở cũ (F203); tranh minh họa chung 『日本山海名物図会』 ghi 「イメージ」 |
+| 3 | `dung` lần đầu báo 「thiếu clip」 cho cả 223 cảnh | Phải render clip (bước 6) trước khi `dung`; clip thử của agent điền hình chỉ có 54 cảnh |
+| 4 | **Render chạy từ app Claude bị tắt mỗi khi phiên kết thúc**: lệnh nền Bash, tab Terminal, `Start-Process` ẩn và cửa sổ `start` riêng đều chết (log `render_cancelled_by_sighup`); mất khoảng 2 giờ chỉ được thêm vài chục cảnh. Log ghi vào tệp bị đệm nên trông như đang chạy | Chạy render **trong lệnh tiền cảnh** (PowerShell `Start-Process … -PassThru` rồi `WaitForExit(570000)`, gọi lại đến khi xong), `python -u` để log ghi ngay; sau 2–3 phút đếm `motion\out\*.mp4` xem có tăng không |
+| 5 | Render 10 cảnh song song làm máy người dùng đơ (CPU 87%, 75 tiến trình Chrome ẩn vẽ bằng CPU) | 4 cảnh song song, ưu tiên `BelowNormal`. Mức `Idle` làm vài cảnh treo ở `session_init` 300 giây rồi lỗi; render lại riêng bằng `--chi` thì xong |
+| 6 | Khung hình tạm `hf-render-*` của các lần bị ngắt nằm lại trong `%TEMP%` ổ C (0,75 GB) | Đặt `TEMP`/`TMP` = `E:\tam_render` trước khi render; người dùng duyệt rồi mới xóa rác |
+| 7 | Dòng 「npm notice New major version」 che mất lỗi thật của cảnh lỗi | Bỏ qua dòng đó; render lại cảnh lỗi bằng `--chi S… --so-luong 2` |
+| 8 | Phụ đề cắt giữa từ ở 2 câu (câu trích 田中正造 bằng katakana cổ, 「立憲君主」) | Thêm 「、」 (thử bằng `split_caption`), đổi khóa tương ứng trong `cach_doc.json`; `dung` đọc lại 2 câu (58 credit) |
+
+### Điều chỉnh
+
+1. Bước 6: không chạy render bằng lệnh nền; chạy tiền cảnh từng lượt dưới 10 phút, `--so-luong 4`, ưu tiên `BelowNormal`, `TEMP` sang ổ E, kiểm số clip sau vài phút.
+2. Bước 4 (ảnh): khi Commons trả 429, tải bản `thumb` 1280px thay cho ảnh gốc.
+3. Sửa câu trích có trong `cach_doc.json` thì sửa cả khóa của bảng, nếu không giọng sẽ đọc chữ gốc.

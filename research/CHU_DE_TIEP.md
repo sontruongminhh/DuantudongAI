@@ -92,3 +92,33 @@ Theo thứ tự đã đề xuất ngày 07/11 (sau ダイエー). Video dài ti�
 | 鮎川家 / 日産コンツェルン | 12 vạn (29/10/2026), 2,2 vạn | 日本一族史 「鮎川家」 2.045 | Mãn Châu, nghi phạm chiến tranh hạng A; hậu duệ còn sống, nhiều công ty còn hoạt động |
 | 渋沢家 (その後) | ギルド日本史 7,8 vạn (27/10/2026) | | Góc 「その後どうなったのか」; không phải "biến mất" |
 | 横井英樹 | 14,1 vạn (10/2026), 44 vạn | dày | Không phải gia tộc; vụ cháy 33 người chết, dễ giật gân |
+
+## 10/11/2026: video 14 chọn **鮎川家 / 日産コンツェルン** (loạt 「なぜ消えたのか」)
+
+Ứng viên kế trong bảng video 13. Đo lại bằng yt-dlp (video ≥10 phút, 20 kết quả đầu):
+
+| Chủ đề | Video dài nhiều view nhất | Cạnh tranh cùng khuôn | Ghi chú |
+|---|---|---|---|
+| **鮎川義介 / 日産** | 偉人エピソードX 12,3 vạn, 禁断のパイオニア列伝 2,2 vạn | 日本一族史 「鮎川家」 2.047, 歴史全史アーカイブ 6.645 | Chạm nhóm Mãn Châu / chiến tranh; nhiều thứ còn tới nay (日産, 日立, ニッスイ, ENEOS) |
+| 渋沢家 その後 | RekiShock 28,7 vạn (vợ), 戦国BANASHI 11,1 vạn, ギルド 7,9 vạn | dày | Hợp loạt 「なぜ終わらなかったのか」 hoặc góc その後 |
+| 住友家 | カカチャンネル 36,5 vạn (cũ), 日本一族史 2,7 vạn | | Loạt 「なぜ終わらなかったのか」 |
+| そごう / 水島廣雄 | 偉人の人生訓 11,5 vạn, 1,5 vạn | 看板を下ろした日 3.722 | Không phải gia tộc |
+| 山一證券 | カカチャンネル 100 vạn + 87 vạn (cũ) | | Không phải gia tộc; video mới chỉ ~1 vạn |
+| 浅野総一郎 / 久原房之助 | 1,9 vạn / 9.314 | | Cầu nhỏ |
+
+Phụ đề 4 video đối thủ ở `research\doi_thu\aikawa_*.ja.vtt` (chỉ để đo trùng). Lần chạy `runs\20261110-aikawa-ke`.
+
+## 12/11/2026: video 15 chọn **住友家** (loạt 「なぜ終わらなかったのか」)
+
+Đo bằng yt-dlp (video ≥10 phút, kèm tháng đăng):
+
+| Chủ đề | Video dài nhiều view | Ghi chú |
+|---|---|---|
+| **住友家** | 春日陽 「三大財閥トップの生活」 64,8 vạn (05/2025), カカチャンネル 「住友」 36,5 vạn (01/2023), 歴史全史アーカイブ 「財閥史」 9,9 vạn (10/2026) | Cùng khuôn chỉ 日本一族史 2,7 vạn. Đủ bộ ba 三井 (video 8) – 岩崎 (video 9) – 住友. Video 8 đã ghi là chủ đề kế của loạt 2 |
+| 淀屋 | 江戸ログ 21,4 vạn (08/2026), 禁断の歴史ランキング 7,3 vạn (10/2026) | Cầu đã lên so với 07/11; không có chân dung |
+| 渋沢家 その後 | ギルド日本史 8,0 vạn (10/2026) | Đối thủ vừa làm đúng góc này |
+| 北海道拓殖銀行, そごう | 看板を下ろした日 14,6 vạn và 5,1 vạn (11/2026) | Kênh mẫu vừa làm: tránh |
+| 長崎屋 | 名門落日録 4,4 vạn (11/2026) | Đối thủ vừa làm |
+| 古河, 浅野, 鴻池, 松方 | 1–3 vạn | Cầu nhỏ |
+
+Phụ đề 3 video đối thủ ở `research\doi_thu\sumitomo_*.ja.vtt` (chỉ để đo trùng). Lần chạy `runs\20261112-sumitomo-ke`.
